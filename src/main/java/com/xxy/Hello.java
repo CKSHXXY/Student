@@ -6,5 +6,14 @@ public class Hello {
 //        new Person().hello();
         Person p=new Person();
         p.hello();
+
+        int age = 29;
+        Integer age2 = 29;
+
+        char c = 'A';
+        byte b = 120;
+        float weight = 66.5f;
+        double height = 1.8;
+        String name = "XXY";
     }
 }
