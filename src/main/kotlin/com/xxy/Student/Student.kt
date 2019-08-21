@@ -12,7 +12,7 @@ fun main(args:Array<String>) {
     var math = scanner.nextInt()
     val stu=Student( name, english, math)
     stu.print()
-    
+
 }
 
 class Student(var name:String, var english:Int, var math:Int){
