@@ -14,11 +14,27 @@ class Student(var name:String, var english:Int, var math:Int){
         print(name+"\t"+english+"\t"+math+"\t"+getAverage()+if(getAverage()>=60)"PASS" else {
             "FAILED"
         })
+//        println("\t"+grading())
+
     }
 
-    fun getAverage():Int{
-        return (english+math)/2
-    }
+//    fun grading(): Char {
+//        return if (getAverage() in 90..100) {
+//            'A'
+//        }
+//        else if (getAverage() in 80..89) {
+//            'B'
+//        }
+//        else if (getAverage() in 70..79) {
+//            'C'
+//        }
+//        else if (getAverage() in 60..69) {'D'}
+//
+////            else 'F'
+//    }
+
+    fun getAverage() = (english+math)/2
+
 
     fun highest():Int{
         val max = if (english > math) {
